@@ -1,8 +1,13 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import Slider from "@/components/Slider.vue"
+import Honeycomb from "@/components/Honeycomb.vue"
 </script>
 
 <template>
   <main>
+    <div class="app-container">
+      <Slider />
+      <Honeycomb />
+    </div>
   </main>
 </template>
